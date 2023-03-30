@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 80px !important;
   line-height: 40px;
 }
 
@@ -695,7 +695,7 @@ div#preloader {
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #FF0000;
+  color: #FF0000 ;
 }
 
 /*--------------------------------------------------------------
