@@ -2648,3 +2648,8 @@ section {
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
+.buttoncol {
+  background-color: red !important;
+  color: white;
+}

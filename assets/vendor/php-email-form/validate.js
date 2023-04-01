@@ -1,8 +1,3 @@
-/**
-* PHP Email Form Validation - v3.6
-* URL: https://bootstrapmade.com/php-email-form/
-* Author: BootstrapMade.com
-*/
 (function () {
   "use strict";
 
@@ -14,7 +9,7 @@
 
       let thisForm = this;
 
-      let action = thisForm.getAttribute('action');
+      let action = 'php/send.php'; // Replace with the URL of the PHP script
       let recaptcha = thisForm.getAttribute('data-recaptcha-site-key');
       
       if( ! action ) {
