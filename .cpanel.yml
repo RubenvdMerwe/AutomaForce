@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/automzze/public_html
+    - cd repositories/AutomaForce && /bin/cp -R * $DEPLOYPATH
