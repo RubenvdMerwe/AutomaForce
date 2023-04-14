@@ -1,5 +1,0 @@
----
-deployments:
-  - destination: /home/automzze/public_html/
-    repo: automzze/AutomaForce
-    branch: main
